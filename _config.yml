@@ -11,6 +11,8 @@ title: "UCSB INT15"
 course: "INT15"
 github_url: https://github.com/ucsb-int15/ucsb-int15.github.io
 
+suppress_footer: true # hide the footer
+
 kramdown:
   parse_block_html: false
 
