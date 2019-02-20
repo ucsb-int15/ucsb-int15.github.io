@@ -1,0 +1,64 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
+
+url: https://ucsb-int15.github.io # the base hostname & protocol for your site
+baseurl: "/"  # the subpath of your site "/" for main, "/w19" for instance
+
+title: "UCSB INT15"
+course: "INT15"
+github_url: https://github.com/ucsb-int15/ucsb-int15.github.io
+
+kramdown:
+  parse_block_html: false
+
+exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+include:
+  - _pages
+
+timezone: America/Los_Angeles
+
+collections:
+  tutorials:
+    output: true
+    permalink: /tutorials/:path/
+
+  topics:
+    output: true
+    permalink: /topics/:path/
+  textbooks:
+    output: true
+    permalink: /textbooks/:path/
+  resources:
+    output: true
+    permalink: /resources/:path/
+
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: default
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: instructor
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: default
+    values:
+layout: default
