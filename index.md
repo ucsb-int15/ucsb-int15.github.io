@@ -36,7 +36,7 @@ Learning by doing will require software documentation, experimenting by trial-an
 
 **Apply to enroll in the course**: <https://goo.gl/forms/HqTUdNrkvZsoEMOY2>
 
-**Application process: Please complete the following form by March 1, 2018.**
+**Application process: Please complete the following form by ~~March 1, 2019~~ March 9, 2019.**
 
 
 Because admission to the course is contingent on various factors, including the number of applications, each undergraduate applicant should enroll in a "back-up" course that can be dropped if admitted to INT 15 (which you would still be happy to take if you haven't been admitted).
